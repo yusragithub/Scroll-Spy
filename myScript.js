@@ -26,3 +26,4 @@ function calculateResult() {
         resultElement.value = 'Invalid expression';
     }
 }
+
