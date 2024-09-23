@@ -1,22 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Scroll Spy</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
     </script>
+    <style>
+        body {
+            position: relative;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        a {
+            font-size: 15px;
+        }
+
+        #section1 {
+            padding-top: 50px;
+            height: 500px;
+            color: white;
+            background-color: orange;
+        }
+
+        #section2 {
+            padding-top: 50px;
+            height: 500px;
+            color: green;
+            background-color: white;
+        }
+    </style>
 </head>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <buton type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </buton>
+                </button>
                 <a class="navbar-brand" href="#">Codingal</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavBar">
@@ -26,19 +56,26 @@
                 </ul>
             </div>
         </div>
-     </nav>
+        </div>
+    </nav>
     <div id="section1" class="container-fluid">
-    <h3>Codingal</h3>
-    <p>Codingal is a cutting-edge online platform revolutionizing the way students learn coding. With its interactive and
-    immersive approach, Codingal makes programming accessible and enjoyable for kids and young adults. Offering personalized
-    mentorship, engaging coding challenges, and real-world projects, Codingal equips the next generation of innovators with
-    the skills and confidence to succeed in the digital age. By bridging the gap between theory and practice, Codingal
-    empowers students to transform their ideas into reality, fostering a community of creative problem-solvers and
-    tech-savvy thinkers.</p>
+        <h3>Codingal</h3>
+        <p>Codingal is a cutting-edge online platform revolutionizing the way students learn coding. With its
+            interactive and
+            immersive approach, Codingal makes programming accessible and enjoyable for kids and young adults. Offering
+            personalized
+            mentorship, engaging coding challenges, and real-world projects, Codingal equips the next generation of
+            innovators with
+            the skills and confidence to succeed in the digital age. By bridging the gap between theory and practice,
+            Codingal
+            empowers students to transform their ideas into reality, fostering a community of creative problem-solvers
+            and
+            tech-savvy thinkers.</p>
     </div>
     <div id="section2" class="container-fluid">
-        <h5>Codingal</h5>
+        <h3>Codingal</h3>
         <p>Codingal was founded by Vivek Prakash and Satyam Baranwal</p>
     </div>
 </body>
+
 </html>
